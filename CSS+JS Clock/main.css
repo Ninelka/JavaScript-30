@@ -31,7 +31,7 @@ body {
     position: relative;
     width: 100%;
     height: 100%;
-    transform: translateY(-3px); /* account for the height of the clock hands */
+    transform: translateY(-3px);
     }
 .hand {
     width: 50%;
@@ -40,7 +40,7 @@ body {
     position: absolute;
     top: 50%;
     transform-origin: 100%;
-    transform: rotate(90deg);
+    transform: rotate(90deg); /* ставим стрелки на 12 часов */
     transition: all 0.2s;
     transition-timing-function: cubic-bezier(0.4, 2.08, 0.55, 0.44);
     }
