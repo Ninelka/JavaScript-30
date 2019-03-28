@@ -1,0 +1,60 @@
+:root {
+    --base: #2ed1cd;
+    --spacing: 10px;
+    --blur: 10px;
+    }
+img {
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    }
+.h1 {
+    color: var(--base);
+    }
+body {
+    text-align: center;
+    background: #193549;
+    color: white;
+    font-family: 'helvetica neue', sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+    }
+.controls {
+    margin-bottom: 50px;
+    }
+input {
+    display: inline-flex;
+    vertical-align: middle;
+    width: 100px;
+    border-radius: 5px;
+
+    }
+
+/*Стилизуем ползунки*/
+
+input[type=range] {
+    /* удаляем дефолтные стили*/
+    -webkit-appearance: none;
+    }
+input[type=range]::-webkit-slider-runnable-track {
+    height: 5px;
+    background: #ddd;
+    border: none;
+    border-radius: 5px;
+    }
+input[type=range]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: none;
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    background: var(--base);
+    margin-top: -4px;
+    cursor: pointer;
+    }
+input[type=range]:focus {
+    outline: none;
+    }
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ccc;
+    }
