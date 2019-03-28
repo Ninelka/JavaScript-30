@@ -12,3 +12,11 @@ What I learned:
 - ```querySelector``` can be used to select a matched element
 - For every key pressed, there’s a lot of information being passed to the function
 - ```classList``` returns a list of all classes which can be modified
+
+## Day 2: JS and CSS Clock
+I am creating a simlpe Clock just using JS and CSS
+
+What I learnd:
+- I can easily set inline styles using ```Element.style```
+- Transforming an element is, by default, at the center
+- ```Element.style.Property = ''``` resets the styling
