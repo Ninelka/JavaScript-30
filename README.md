@@ -20,3 +20,11 @@ What I learnd:
 - I can easily set inline styles using ```Element.style```
 - Transforming an element is, by default, at the center
 - ```Element.style.Property = ''``` resets the styling
+
+## Day 3: Playing with CSS Variables and JS
+I had already known CSS variables and ```forEach``` in JS.
+
+So, what I learnd:
+- All of the data attributes can be accessed using ```dataset```
+- ```QuerySelectorAll``` returns a NodeList, which is kind of like an Array, except that it’s not
+- CSS Custom Properties can be changed using the ```setProperty``` method
