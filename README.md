@@ -28,3 +28,10 @@ So, what I learnd:
 - All of the data attributes can be accessed using ```dataset```
 - ```QuerySelectorAll``` returns a NodeList, which is kind of like an Array, except that it’s not
 - CSS Custom Properties can be changed using the ```setProperty``` method
+## Day 4: Array Cardio Day 1
+Today we are going to work with Arrays and the different methods that we can use: ```filter()```, ```map()```, ```sort()```, ```reduce()```.
+
+What I learnd:
+- ```map()``` and ```sort()``` will always return the same number of items
+- An initial value is very important in the ```reduce()``` method
+- How 1 and -1 work in the ```sort()``` method
