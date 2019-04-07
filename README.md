@@ -44,3 +44,7 @@ What I learnd today:
 - The ```toggle()``` method is a cool way to literally toggle classes
 - Using ```includes()``` we can check if something has a certain word or character that we are looking for
 - To make image gallery like on many frontpages of a photographers portfolio it really isn’t hard
+
+## Day 6: Type Ahead
+
+In the lesson we are using ```fetch()``` and ```filter()``` methods and also takes advantage of regular expressions to build a simple filter for american cities. Did the same with russian cities
