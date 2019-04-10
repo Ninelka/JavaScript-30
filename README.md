@@ -47,4 +47,7 @@ What I learnd today:
 
 ## Day 6: Type Ahead
 
-In the lesson we are using ```fetch()``` and ```filter()``` methods and also takes advantage of regular expressions to build a simple filter for american cities. Did the same with russian cities
+In the lesson we are using ```fetch()``` and ```filter()``` methods and also takes advantage of regular expressions to build a simple filter for american cities. Did the same with russian cities in parallel branch
+
+## Day 7: Array Cardio Day 2
+Today We will explore six JavaScript array functions: ```some()```, ```every()```, ```find()```, ```findIndex()```, ```splice()``` and ```slice()```
