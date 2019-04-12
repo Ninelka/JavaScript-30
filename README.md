@@ -16,7 +16,7 @@ What I learned:
 ## Day 2: JS and CSS Clock
 I am creating a simlpe Clock just using JS and CSS
 
-What I learnd:
+What I learned:
 - I can easily set inline styles using ```Element.style```
 - Transforming an element is, by default, at the center
 - ```Element.style.Property = ''``` resets the styling
@@ -24,7 +24,7 @@ What I learnd:
 ## Day 3: Playing with CSS Variables and JS
 I had already known CSS variables and ```forEach``` in JS.
 
-So, what I learnd:
+So, what I learned:
 - All of the data attributes can be accessed using ```dataset```
 - ```QuerySelectorAll``` returns a NodeList, which is kind of like an Array, except that it’s not
 - CSS Custom Properties can be changed using the ```setProperty``` method
@@ -32,7 +32,7 @@ So, what I learnd:
 ## Day 4: Array Cardio Day 1
 Today we are going to work with Arrays and the different methods that we can use: ```filter()```, ```map()```, ```sort()```, ```reduce()```.
 
-What I learnd:
+What I learned:
 - ```map()``` and ```sort()``` will always return the same number of items
 - An initial value is very important in the ```reduce()``` method
 - How 1 and -1 work in the ```sort()``` method
@@ -40,7 +40,7 @@ What I learnd:
 ## Day 5: Flex Panels Image Gallery
 We made an image gallery with CSS Flexbox.
 
-What I learnd today:
+What I learned today:
 - The ```toggle()``` method is a cool way to literally toggle classes
 - Using ```includes()``` we can check if something has a certain word or character that we are looking for
 - To make image gallery like on many frontpages of a photographers portfolio it really isn’t hard
@@ -51,3 +51,13 @@ In the lesson we are using ```fetch()``` and ```filter()``` methods and also tak
 
 ## Day 7: Array Cardio Day 2
 Today We will explore six JavaScript array functions: ```some()```, ```every()```, ```find()```, ```findIndex()```, ```splice()``` and ```slice()```
+## Day 8: Fun with HTML5 Canvas
+Today we are going to create a drawing game using the HTML5 canvas element.
+We will need to:
+
+- Stretch the canvas to fill the window ```height``` and ```width```.
+- Set the base settings of the ```strokeStyle```, ```lineJoin``` and ```lineCap```.
+- Set default drawing variables (to control so the drawing only happens when the mouse is down - not just when the mouse moves).
+- Set default variables to hold the beginning and ending coordinates for drawing lines.
+- Create some event listeners and a function to handle drawing.
+- Add a rainbow styled stroke (first initialising ```hue``` and then setting the ```strokeStyle``` to an hsl colour)
