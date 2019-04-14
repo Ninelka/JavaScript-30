@@ -61,3 +61,20 @@ We will need to:
 - Set default variables to hold the beginning and ending coordinates for drawing lines.
 - Create some event listeners and a function to handle drawing.
 - Add a rainbow styled stroke (first initialising ```hue``` and then setting the ```strokeStyle``` to an hsl colour)
+
+## Day 9: 14 Must Know Dev Tools Tricks
+Today we're learning 14 Must know Dev tools tricks:
+1. Inspect the element in the dev tools (```Break on... > attribute modifications```)
+2. ```console.log()```
+3. Interpolate (use ```%s```)
+4. Styled Console Logging (add ```%c``` at the beginning of the message)
+5. Warnings in the Console (use ```console.warn()```)
+6. Errors in the Console (use ```console.error()```)
+7. Information in the Console (use ```console.info()```)
+8. Using ```console.assert()``` for Testing
+9. Clearing the Console (use ```console.clear() ```)
+10. View DOM Elements (use ```console.dir()```)
+11. Grouping Together (use ```console.group(name)``` and ```console.groupEnd(name)```)
+12. Counting Instances (use ```console.count()```)
+13. Timing (use ```console.time()``` and ```console.timeEnd()```)
+14. Log in a table (use ```console.table()```)
